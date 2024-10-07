@@ -1,0 +1,126 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.outer{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+   background-color: rgb(29, 231, 130);
+   border: 5px solid black;
+}
+.inner{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    border: 5px solid black;
+}
+.cn{
+    position: relative;
+    top: -10px;
+    right: 16px;
+    color: rgb(223, 16, 137);
+}
+b{
+    position: absolute;
+    top: 40px;
+}
+.o{
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+.t{
+    position: relative;
+    left: 90px;
+    top: 45px;
+}
+.th{
+    position: relative;
+    left: 100px;
+    top: 90px;
+}
+.f{
+    position: relative;
+    left: 90px;
+    top: 120px;
+}
+.fi{
+    position: relative;
+    left: 60px;
+    top: 140px;
+}
+.s{
+    position: relative;
+    left: 0px;
+    top:140px;
+}
+.se{
+    position: relative;
+    right: 50px;
+    top: 105px;
+}
+.e{
+    position: relative;
+    right: 90px;
+    top: 50px;
+}
+.twe{
+    position: relative;
+    left: 0px;
+    bottom: 190px;
+}
+.n{
+    position: relative;
+    right: 100px;
+    top: -20px;
+}
+.ten{
+    position: relative;
+    left: -90px;
+    bottom: 90px;
+}
+.ele{
+    position: relative;
+    left: -50px;
+    bottom: 160px;
+    transform: rotate();
+}
+#sh{
+    height: 80px;
+    width: 2px;
+    background-color: black;
+    position: relative;
+    top: -180px;
+    left: 150px;
+    transform-origin: bottom;
+}
+#ar{
+    height: 50px;
+    width: 2px;
+    background-color: black;
+    position: relative;
+    transform-origin: bottom;
+    top: -300px;
+    left: 150px;
+    rotate: 30deg;
+}
+#row{
+    height: 70px;
+    width: 2px;
+    background-color: black;
+    position: relative;
+    transform-origin: bottom;
+    top: -250px;
+    left: 150px;
+    rotate: 60deg;
+}
+
+
